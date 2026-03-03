@@ -18,20 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Bharat's Blog
-subtitle: Musings of a curious mind
-email: me@domain.com (not a real email address)
+title: Mindful Musings
+subtitle: Thoughts on Life, Culture, Productivity & Investing
+email: me@domain.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Bharat uses this site to express his opinions and views on a diverse set of topics.
+  Mindful Musings is a space where I share my thoughts on life, culture, productivity, investing, and anything that catches my interest.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bchitnavis
 github_username: bchitnavis
 
 # Build settings
-# theme: minima
+theme: minima
 # theme: minimal-mistakes-jekyll
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 

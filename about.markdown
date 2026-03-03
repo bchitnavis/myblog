@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Welcome to Bharat's Blog! This is a personal space where I share my thoughts and perspectives on technology, global affairs, business, and various other topics that capture my curiosity.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This blog has been running since 2005, documenting my journey through the ever-evolving landscape of technology and world events.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Feel free to explore the posts and reach out if you'd like to discuss any of the topics covered here.

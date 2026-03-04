@@ -20,20 +20,39 @@
 
 title: Mindful Musings
 subtitle: Thoughts on Life, Culture, Productivity & Investing
-email: me@domain.com
+# email: me@domain.com
 description: >- # this means to ignore newlines until "baseurl:"
   Mindful Musings is a space where I share my thoughts on life, culture, productivity, investing, and anything that catches my interest.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mindfulmusings.netlify.app" # the base hostname & protocol for your site
 twitter_username: bchitnavis
 github_username: bchitnavis
 
 # Build settings
-theme: minima
-# theme: minimal-mistakes-jekyll
+theme: minimal-mistakes-jekyll
 # theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+minimal_mistakes_skin: "dark"
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

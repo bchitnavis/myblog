@@ -1,1 +1,23 @@
-_site
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+vendor/
+Gemfile.lock
+
+# macOS
+.DS_Store
+*/.DS_Store
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup directories
+_posts_20240914/
+jekyll_old/

@@ -28,6 +28,6 @@ The site automatically deploys to Netlify whenever changes are pushed to the `ma
 ## Technologies
 
 - **Generator:** Jekyll 4.3.2
-- **Theme:** Minima
+- **Theme:** Minimal Mistakes
 - **Hosting:** Netlify
 - **Repository:** GitHub

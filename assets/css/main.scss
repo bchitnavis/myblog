@@ -1,0 +1,60 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'dark' }}";
+@import "minimal-mistakes";
+
+.page__content {
+  line-height: 1.8;
+}
+
+.page__content a,
+.archive__item-title a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+.page__content a:hover,
+.archive__item-title a:hover,
+.page__content a:focus,
+.archive__item-title a:focus {
+  text-decoration-thickness: 3px;
+}
+
+.page__content code {
+  padding: 0.12em 0.34em;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+
+.page__content pre,
+.page__content .highlighter-rouge .highlight {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
+
+.page__content blockquote {
+  border-left-width: 4px;
+  opacity: 0.95;
+}
+
+.page__content th,
+.page__content td {
+  border-color: var(--border-color);
+}
+
+.page__content th {
+  font-weight: 700;
+}
+
+.page__content hr {
+  border-top: 1px solid var(--border-color);
+}
+
+.site-title,
+.masthead__menu-item a,
+.page__footer a {
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}

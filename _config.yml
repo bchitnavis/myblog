@@ -36,12 +36,21 @@ plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-archives
 
 minimal_mistakes_skin: "dark"
+
+# Search
+search: true
+search_full_content: true
 
 # Pagination
 paginate: 10
 paginate_path: "/page:num/"
+
+# Include _pages directory
+include:
+  - _pages
 
 # Defaults
 defaults:
@@ -53,6 +62,29 @@ defaults:
       author_profile: true
       read_time: true
       show_date: true
+      share: true
+      related: true
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
+
+# Archives (for year/month/category/tag pages)
+jekyll-archives:
+  enabled:
+    - year
+    - categories
+    - tags
+  layouts:
+    year: archive-taxonomy
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    year: /year/:year/
+    category: /categories/:name/
+    tag: /tags/:name/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

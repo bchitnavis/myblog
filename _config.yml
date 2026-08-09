@@ -29,9 +29,10 @@ twitter_username: bchitnavis
 github_username: bchitnavis
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 # theme: jekyll-theme-minimal
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-seo-tag

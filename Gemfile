@@ -40,3 +40,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Downgrading sass conerter https://www.reddit.com/r/Jekyll/comments/zunif0/help_please_i_keep_getting_deprecation_warnings/
 gem "jekyll-sass-converter", "~> 2.0"
+
+gem "webrick", "~> 1.8"

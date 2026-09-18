@@ -5,6 +5,8 @@ main:
     url: /archives/
   - title: "Categories"
     url: /categories/
+  - title: "MyCloudApp"
+    url: /MyCloudApp.html
   - title: "About"
     url: /about/
   - title: "Privacy Policy"

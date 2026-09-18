@@ -31,6 +31,9 @@ github_username: bchitnavis
 # Footer
 footer:
   links:
+    - label: "Terms of Service"
+      icon: "fas fa-fw fa-file-contract"
+      url: "/tos.html"
     - label: "Privacy Policy"
       icon: "fas fa-fw fa-shield-alt"
       url: "/privacy-policy/"

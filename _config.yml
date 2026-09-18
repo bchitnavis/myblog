@@ -65,6 +65,11 @@ search_full_content: true
 paginate: 10
 paginate_path: "/page:num/"
 
+# Collections
+collections:
+  pages:
+    output: true
+
 # Include _pages directory
 include:
   - _pages
